@@ -1,11 +1,11 @@
 package edu.grinnell.csc207.util;
 
 public class CipherUtils {
-  private static int letter2int(char letter) {
+  public static int letter2int(char letter) {
     return (int) letter - (int) 'a';
   }
 
-  private static char int2letter(int i) {
+  public static char int2letter(int i) {
     return (char) (i + (int) 'a');
   }
 
