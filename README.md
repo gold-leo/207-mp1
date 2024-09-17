@@ -9,4 +9,4 @@
 - [w3 schools](https://www.w3schools.com/java/java_strings.asp)
 - [an online java compiler before i installed a JDK](https://www.programiz.com/java-programming/online-compiler/)
 
-[github](https://github.com/leo-goldman/cipher)
+[github](https://github.com/leo-goldman/207-mp1)
