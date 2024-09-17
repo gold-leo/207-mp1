@@ -1,6 +1,20 @@
 package edu.grinnell.csc207.util;
 
 public class CipherUtils {
+  public static String[] removeElement(String[] strs, int index) {
+    int l = strs.length;
+    String[] n_strs = new String[l - 1];
+    for (int i = 0, n = 0; i < l; i++) {
+      if (i == index) {
+        continue;
+      }
+      else {
+        n_strs[n++] = strs[i];
+      }
+    }
+    return n_strs;
+  }
+
   public static int letter2int(char letter) {
     return (int) letter - (int) 'a';
   }

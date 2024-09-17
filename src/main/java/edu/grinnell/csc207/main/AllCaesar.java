@@ -8,12 +8,7 @@ public class AllCaesar {
     PrintWriter err_pen = new PrintWriter(System.err, true);
     PrintWriter pen = new PrintWriter(System.out, true);
     
-    int arg_len = 0;
-    for (String s : args)
-    {
-      arg_len++;
-    }
-    if (arg_len != 2)
+    if (args.length != 2)
     {
       err_pen.println("Error: Incorrect number of parameters.");
       return;
@@ -46,7 +41,6 @@ public class AllCaesar {
         err_pen.println("Error: String contains characters other than lowercase letters.");
         break;
       }
-      
     }
 
     switch(enc) {
