@@ -6,6 +6,8 @@ import edu.grinnell.csc207.util.CipherUtils;
 
 /**
  * Cipher class.
+ * 
+ * @author leo goldman
  */
 public class Cipher {
   /**

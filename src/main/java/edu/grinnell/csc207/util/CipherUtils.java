@@ -3,6 +3,8 @@ package edu.grinnell.csc207.util;
 
 /**
  * Utils for all ciphers.
+ * 
+ * @author leo goldman
  */
 public class CipherUtils {
 

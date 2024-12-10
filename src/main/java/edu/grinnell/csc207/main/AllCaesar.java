@@ -5,6 +5,8 @@ import edu.grinnell.csc207.util.CipherUtils;
 
 /**
  * AllCaesar class.
+ * 
+ * @author leo goldman
  */
 public class AllCaesar {
   /**
